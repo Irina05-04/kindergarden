@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220414211126"/>
+  <link rel="stylesheet" href="css/style.css?_v=20220414211126" />
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <title>Услуги</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+  <div class="header__container">
+    <a href="index.html" class="header__logo _icon-logo">Изумруд</a>
+    <div class="header__menu menu">
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="about.html" class="menu__link">О нас</a></li>
+          <li class="menu__item">
+            <a href="services.html" class="menu__link">Программы</a>
+          </li>
+          <li class="menu__item">
+            <a href="timetable.html" class="menu__link">Расписание</a>
+          </li>
+          <li class="menu__item"><a href="gallary.html" class="menu__link">Галерея</a></li>
+          <li class="menu__item">
+            <a href="teacher.html" class="menu__link">Персонал</a>
+          </li>
+          <li class="menu__item"><a href="news.html" class="menu__link">Блог</a></li>
+          <li class="menu__item">
+            <a href="contact.html" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <button type="button" class="icon-menu"><span></span></button>
+  </div>
+</header>
+
+      <main>
+        <div class="crumbs">
+          <div class="crumbs__container">
+            <ul class="crumbs__items" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemprop="itemListElement" itemscope
+              itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="index.html">
+              <span itemprop="name">Главная</span></a>
+              <meta itemprop="position" content="1" />
+              </li>
+              <li itemprop="itemListElement" itemscope
+              itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="services.html">
+              <span itemprop="name">Наши услуги</span></a>
+              <meta itemprop="position" content="2" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <article class="allServices">
+          <div class="allServices__container">
+            <div class="allServices__h1-title">Наши услуги</div>
+            <div class="allServices__line"></div>
+            <div class="allServices__filter filter">
+              <div class="filter__name">курсы</div>
+              <div class="filter__list">
+                <div class="filter__item">
+                  <input type="radio" id="section0" name="filter" class="radio" checked/>
+                  <label for="section0">все курсы</label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section1" name="filter" class="radio" />
+                  <label for="section1">общая программа</label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section2" name="filter" class="radio" />
+                  <label for="section2">развивающие занятия</label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section3" name="filter" class="radio" />
+                  <label for="section3">занятия с психологом</label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section4" name="filter" class="radio" />
+                  <label for="section4">английский для школьников</label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section5" name="filter" class="radio" />
+                  <label for="section5">подготовка к школе</label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section6" name="filter" class="radio"  />
+                  <label for="section6">занятия с логопедом </label>
+                </div>
+                <div class="filter__item">
+                  <input type="radio" id="section7" name="filter" class="radio" />
+                  <label for="section7">ментальная арифметика</label>
+                </div>
+              </div>
+              <!--<button type="button" class="filter-mobile-button button">применить</button>-->
+            </div>
+            <button type="button" id="filter-button" class="filter-mobile _icon-list2"></button>
+            <div class="allServices__list">
+              <div class="section" id="1" hidden>
+                <div class="section__name" >Общая программа</div>
+                <div class="section__list">
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/allDay.png" alt="дети" />
+                    </div>
+                    <div class="card__text">
+                      <h3>Полный день пребывания</h3>
+                      <div class="card__text__clock _icon-clock">
+                        с 8:00 до 19:00
+                      </div>
+                      <div class="card__text__cost _icon-cost">980 руб/мес</div>
+                    </div>
+
+                    <a href="#" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/logoped.png" alt="логопед" />
+                    </div>
+                    <div class="card__text">
+                      <h3>Логопедическая группа</h3>
+                      <!--<div class="card__text__clock"></div>-->
+                      <div class="card__text__cost _icon-cost">
+                        +220 руб/мес
+                      </div>
+                    </div>
+                    <a href="#" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="section"id="2" hidden>
+                <div class="section__name">Развивающие занятия</div>
+                <div class="section__list">
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/section2_1.jpg" alt="дети" />
+                    </div>
+                    <div class="card__text">
+                      <h3>Занятия по раннему развитию (45 мин)</h3>
+                      <div class="card__text__age _icon-age">1-3 лет</div>
+                      <div class="card__text__cost _icon-cost">
+                        55 руб/мес (4 занятия)
+                      </div>
+                    </div>
+
+                    <a href="#" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/section2_2.png" alt="логопед" />
+                    </div>
+                    <div class="card__text">
+                      <h3>
+                        Занятия по раннему развитию + логоритмика (1 час 20 мин)
+                      </h3>
+                      <!--<div class="card__text__clock"></div>-->
+                      <div class="card__text__age _icon-age">1-3 лет</div>
+                      <div class="card__text__cost _icon-cost">
+                        80 руб/мес (4 занятия)
+                      </div>
+                    </div>
+                    <a href="#" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/section2_3.png" alt="логопед" />
+                    </div>
+                    <div class="card__text">
+                      <h3>Логоритмика</h3>
+                      <!--<div class="card__text__clock"></div>-->
+                      <div class="card__text__cost _icon-cost">
+                        55 руб/мес (4 занятия)
+                      </div>
+                    </div>
+                    <a href="#" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="section" id="3" hidden>
+                <div class="section__name">Занятия с психологом</div>
+                <div class="section__list">
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/psicholog.jpg" alt="девочка" />
+                    </div>
+                    <div class="card__text">
+                      <h3>Психологическая консультация (детская, семейная)</h3>
+                      <div class="card__text__cost _icon-cost">
+                        20 руб/ 1 консультация
+                      </div>
+                    </div>
+
+                    <a href="curse.html" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                  <div class="section__list__card card">
+                    <div class="card__img">
+                      <img src="img/section3_2.png" alt="логопед" />
+                    </div>
+                    <div class="card__text">
+                      <h3>Индивидуальные занятия с педагогом-психологом</h3>
+                      <!--<div class="card__text__clock"></div>-->
+                      <div class="card__text__age _icon-age">3-6 лет</div>
+                      <div class="card__text__cost _icon-cost">
+                        80 руб/мес (4 занятия)
+                      </div>
+                    </div>
+                    <a href="#" class="card__buttonArrow buttonArrow _icon-arrow">
+                      читать далее
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </main>
+      <footer>
+   <div class="footer__container">
+      <h2>© 2022 "ИЗУМРУД"</h2>
+   </div>
+   </footer>
+    </div>
+    <script src="js/filter.js?_v=20220414211126"></script>
+
+    <script src="js/app.min.js?_v=20220414211126"></script>
+  </body>
+</html>

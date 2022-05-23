@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css?_v=20220414211126"/>
+  <link rel="stylesheet" href="css/style.min.css?_v=20220414211126" />
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <title>Расписание</title>
+</head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header" id="header">
+  <div class="header__container">
+    <a href="index.html" class="header__logo _icon-logo">Изумруд</a>
+    <div class="header__menu menu">
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item"><a href="about.html" class="menu__link">О нас</a></li>
+          <li class="menu__item">
+            <a href="services.html" class="menu__link">Программы</a>
+          </li>
+          <li class="menu__item">
+            <a href="timetable.html" class="menu__link">Расписание</a>
+          </li>
+          <li class="menu__item"><a href="gallary.html" class="menu__link">Галерея</a></li>
+          <li class="menu__item">
+            <a href="teacher.html" class="menu__link">Персонал</a>
+          </li>
+          <li class="menu__item"><a href="news.html" class="menu__link">Блог</a></li>
+          <li class="menu__item">
+            <a href="contact.html" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <button type="button" class="icon-menu"><span></span></button>
+  </div>
+</header>
+
+      <main class="timetable_bird">
+        <div class="crumbs">
+          <div class="crumbs__container">
+            <ul class="crumbs__items" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemprop="itemListElement" itemscope
+              itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="index.html">
+              <span itemprop="name">Главная</span></a>
+              <meta itemprop="position" content="1" />
+              </li>
+              <li itemprop="itemListElement" itemscope
+              itemtype="http://schema.org/ListItem">
+              <a itemprop="item" href="timetable.html">
+              <span itemprop="name">Расписание занятий</span></a>
+              <meta itemprop="position" content="2" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <article class="timetable">
+          <div class="timetable__container">
+            <h1 class="timetable__h1-title">Расписание занятий</h1>
+            <div class="timetable__line"></div>
+            <div data-spollers data-one-spoller class="timetable__list">
+            <!--<div class="timetable__list">-->
+              <div class="timetable__item table">
+                  <button
+                  tabindex="-1"
+                  type="button"
+                  data-spoller
+                  class="table__name"
+                >Группа №1 старшая (5-6 лет)</button>
+                <div class="table__week">
+                  <table>
+                    <tr>
+                      <th>понедельник</th>
+                      <th>вторник</th>
+                      <th>среда</th>
+                      <th>четверг</th>
+                      <th>пятница</th>
+                      <th>доп. занятия</th>
+                    </tr>
+                    <tr>
+                       <td><span>9.40-10.05</span></br>Английский язык</br></br><span>10.40-11.05
+                      </span></br>Подготовка к школе</br></br><span>10.05-11.30</span></br>Психологическая подготовка к школе</br></br><span>16.05-16.30</span></br>Шахматы</br></br><span>16.35-17.00</span></br>Физическая культура</br></td>
+                      <td><span>10.05-10.30</span></br>Китайский язык</br></br><span>10.35-11.00
+                      </span></br>Ребенок и природа</br></br><span>11.05-11.30</span></br>Музыкальная деятельность</br></br><span>17.05-17.30</span></br>Физическая культура</br></td>
+                      <td><span>10.00-10.25</span></br>Этикет</br></br><span>10.35-11.00
+                      </span></br>Элементарные математические представления</br></br><span>10.10-10.35
+                      </span></br>Английский язык</br></br><span>15.40-16.05</span></br>Развiцце бел. маўлення i культура маўленчых зносiн</br></td>
+                      <td><span>10.35-11.00
+                      </span></br>Музыкальная деятельность</br></br><span>10.05-11.30</span></br>Развитие речи и культура речевого общения</br></br><span>15.40-16.05</span></br>Изобразительное искусство</br></td>
+                      <td><span>9.40-10.05</span></br>Обучение грамоте</br></br><span>10.10-10.35
+                      </span></br>Обучение чтению и письму по методике Зайцева</br></br><span>11.00-11.25</span></br>Физическая культура</br><span>11.45-12.05</span></br>Английский язык</br></br><span>16.00-16.25
+                      </span></br>Изобразительное искусство</br></td>
+                      <td><span>среда / пятница </br>12.00-12.30</span></br>Хореография</br></br><span>среда / четверг</br>16.15-16.45
+                      </span></br>Детский фитнес</br></br><span>вторник</br>15.10-15.40
+                      </span></br>Детский фитнес</br></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="timetable__item table">
+                <button
+                tabindex="-1"
+                type="button"
+                data-spoller
+                class="table__name"
+              >Группа №2 старшая (5-6 лет)</button>
+               <div class="table__week">
+                 <table>
+                   <tr>
+                     <th>понедельник</th>
+                     <th>вторник</th>
+                     <th>среда</th>
+                     <th>четверг</th>
+                     <th>пятница</th>
+                     <th>доп. занятия</th>
+                   </tr>
+                   <tr>
+                      <td><span>9.40-10.05</span></br>Английский язык</br></br><span>10.40-11.05
+                     </span></br>Подготовка к школе</br></br><span>10.05-11.30</span></br>Психологическая подготовка к школе</br></br><span>16.05-16.30</span></br>Шахматы</br></br><span>16.35-17.00</span></br>Физическая культура</br></td>
+                     <td><span>10.05-10.30</span></br>Китайский язык</br></br><span>10.35-11.00
+                     </span></br>Ребенок и природа</br></br><span>11.05-11.30</span></br>Музыкальная деятельность</br></br><span>17.05-17.30</span></br>Физическая культура</br></td>
+                     <td><span>10.00-10.25</span></br>Этикет</br></br><span>10.35-11.00
+                     </span></br>Элементарные математические представления</br></br><span>10.10-10.35
+                     </span></br>Английский язык</br></br><span>15.40-16.05</span></br>Развiцце бел. маўлення i культура маўленчых зносiн</br></td>
+                     <td><span>10.35-11.00
+                     </span></br>Музыкальная деятельность</br></br><span>10.05-11.30</span></br>Развитие речи и культура речевого общения</br></br><span>15.40-16.05</span></br>Изобразительное искусство</br></td>
+                     <td><span>9.40-10.05</span></br>Обучение грамоте</br></br><span>10.10-10.35
+                     </span></br>Обучение чтению и письму по методике Зайцева</br></br><span>11.00-11.25</span></br>Физическая культура</br><span>11.45-12.05</span></br>Английский язык</br></br><span>16.00-16.25
+                     </span></br>Изобразительное искусство</br></td>
+                     <td><span>среда / пятница </br>12.00-12.30</span></br>Хореография</br></br><span>среда / четверг</br>16.15-16.45
+                     </span></br>Детский фитнес</br></br><span>вторник</br>15.10-15.40
+                     </span></br>Детский фитнес</br></td>
+                   </tr>
+                 </table>
+               </div>
+             </div>
+             <div class="timetable__item table">
+              <button
+                tabindex="-1"
+                type="button"
+                data-spoller
+                class="table__name"
+              >
+              Группа №3 старшая (5-7 лет)
+              </button>
+              <div class="timetable__item__text">
+                <div class="table__week">
+                  <table>
+                    <tr>
+                      <th>понедельник</th>
+                      <th>вторник</th>
+                      <th>среда</th>
+                      <th>четверг</th>
+                      <th>пятница</th>
+                      <th>доп. занятия</th>
+                    </tr>
+                    <tr>
+                       <td><span>9.40-10.05</span></br>Английский язык</br></br><span>10.40-11.05
+                      </span></br>Подготовка к школе</br></br><span>10.05-11.30</span></br>Психологическая подготовка к школе</br></br><span>16.05-16.30</span></br>Шахматы</br></br><span>16.35-17.00</span></br>Физическая культура</br></td>
+                      <td><span>10.05-10.30</span></br>Китайский язык</br></br><span>10.35-11.00
+                      </span></br>Ребенок и природа</br></br><span>11.05-11.30</span></br>Музыкальная деятельность</br></br><span>17.05-17.30</span></br>Физическая культура</br></td>
+                      <td><span>10.00-10.25</span></br>Этикет</br></br><span>10.35-11.00
+                      </span></br>Элементарные математические представления</br></br><span>10.10-10.35
+                      </span></br>Английский язык</br></br><span>15.40-16.05</span></br>Развiцце бел. маўлення i культура маўленчых зносiн</br></td>
+                      <td><span>10.35-11.00
+                      </span></br>Музыкальная деятельность</br></br><span>10.05-11.30</span></br>Развитие речи и культура речевого общения</br></br><span>15.40-16.05</span></br>Изобразительное искусство</br></td>
+                      <td><span>9.40-10.05</span></br>Обучение грамоте</br></br><span>10.10-10.35
+                      </span></br>Обучение чтению и письму по методике Зайцева</br></br><span>11.00-11.25</span></br>Физическая культура</br><span>11.45-12.05</span></br>Английский язык</br></br><span>16.00-16.25
+                      </span></br>Изобразительное искусство</br></td>
+                      <td><span>среда / пятница </br>12.00-12.30</span></br>Хореография</br></br><span>среда / четверг</br>16.15-16.45
+                      </span></br>Детский фитнес</br></br><span>вторник</br>15.10-15.40
+                      </span></br>Детский фитнес</br></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </article>
+      </main>
+      <footer>
+   <div class="footer__container">
+      <h2>© 2022 "ИЗУМРУД"</h2>
+   </div>
+   </footer>
+    </div>
+    <script src="js/app.min.js?_v=20220414211126"></script>
+    <script src="js/slide.js?_v=20220414211126"></script>
+
+  </body>
+</html>

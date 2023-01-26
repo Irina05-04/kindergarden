@@ -784,9 +784,7 @@ footer {
   font-size: 1.1428571429rem;
   line-height: 1.5;
   color: #66921B;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  max-width: 300px;
   padding-right: 10px;
 }
 
